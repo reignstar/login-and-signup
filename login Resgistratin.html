@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {width: 100%, background-color:grey;}
+form {border: 3px solid pink;}
+
+input[type=text], input[type=password], input[type=email] {   
+ 
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;}
+
+button {
+  background-color: grey;
+  color: pink;
+  padding: 14px 20px;
+  margin: 4px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+.container {
+  padding: 16px;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Login Form</h2>
+
+<form method="post" action="login.php"> 
+<div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" name="Username" placeholder="Enter Username"  required><br>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" name="password" placeholder="Enter password"  required><br>
+
+    <label for="eml"><b>Email</b></label>
+    <input type="Email" name="Email" placeholder="Email"  required><br>
+
+    <input type="reset" name="reset" placeholder="reset"  required><br>
+        
+    <button type="submit">submit</button>
+
+   <a href="http://localhost/login/sign%20up.html">
+          Sign up Here! </a>
+  </div>
+  <div class="container" style="background-color:#f1f1f1">
+    
+  </div>
+
+</form>
+
+</body>
